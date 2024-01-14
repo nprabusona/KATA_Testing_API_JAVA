@@ -3,8 +3,18 @@ package dto;
 public class Type {
     private int id;
     private String name;
+    
+    public Type()
+    {
+    	
+    }
 
-    public int getId() {
+    public Type(int id, String name) {
+    	this.id = id;
+    	this.name = name;
+	}
+
+	public int getId() {
         return id;
     }
 

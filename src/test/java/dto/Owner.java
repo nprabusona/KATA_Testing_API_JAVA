@@ -1,5 +1,6 @@
 package dto;
 
+
 public class Owner {
     private int id;
     private String firstName;
@@ -8,7 +9,21 @@ public class Owner {
     private String city;
     private String telephone;
 
-    public int getId() {
+    public Owner()
+    {
+    	
+    }
+    
+    public Owner(int id, String firstName, String lastName, String address, String city, String telephone) {
+    	this.id = id;
+    	this.firstName = firstName;
+    	this.lastName = lastName;
+    	this.address = address;
+    	this.city = city;
+    	this.telephone = telephone;
+	}
+
+	public int getId() {
         return id;
     }
 

@@ -13,7 +13,21 @@ public class Pet {
     @JsonIgnore
     private ArrayList<Visit> visits;
 
-    public int getId() {
+    public Pet()
+    {
+    	
+    }
+
+	public Pet(int id, String name, String birthDate, Type type, Owner owner, ArrayList<Visit> visits) {
+		this.id = id;
+		this.name = name;
+		this.birthDate = birthDate;
+		this.type = type;
+		this.owner = owner;
+		this.visits = visits;
+	}
+
+	public int getId() {
         return id;
     }
 

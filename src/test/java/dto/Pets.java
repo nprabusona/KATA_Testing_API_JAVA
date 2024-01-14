@@ -1,10 +1,7 @@
 package dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Pets {
 

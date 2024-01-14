@@ -28,4 +28,6 @@ public class Visit {
     public void setDescription(String description) {
         this.description = description;
     }
+    
+    
 }

@@ -67,7 +67,7 @@ public class SupportFunctions {
         System.out.println(jsonArray);
         return mapper.readValue(jsonArray.toString(), classObj);
     }
-    public static String getResponseCode(){
-        return response.getHeader("Response" );
+    public static int getResponseCode(){
+        return response.statusCode();
     }
 }
